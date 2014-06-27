@@ -6,7 +6,7 @@ java_import 'org.springframework.ui.ModelMap'
 
 java_package 'com.codenvy.example.jruby'
 java_annotation 'Controller'
-java_annotation 'RequestMapping("/welcome")'
+java_annotation 'RequestMapping("/")'
 class GreetingController
  
   java_annotation 'RequestMapping'
